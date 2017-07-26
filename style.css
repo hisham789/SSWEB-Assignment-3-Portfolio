@@ -1,0 +1,629 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Start header section style*/
+.HeaderSection{
+    margin: 0;
+    width: 100%;
+    background: #F8F8F8;
+    /*border: 2px solid red;*/
+    box-sizing: border-box;   
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+}
+
+.header{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo{
+    /*border: 2px solid green;*/
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.MenuBar{
+    /*border: 2px solid black;*/
+    width: 70%;
+    box-sizing: border-box;
+    float: right;
+    overflow: hidden;
+}
+
+.MenuBar ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+
+.MenuBar ul li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.MenuBar ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: all .1s;
+}
+
+.MenuBar ul li a:hover{
+    color: #22b4ff;
+}
+
+#ActiveText{
+    color: #22b4ff;
+}
+/*End header section style*/
+
+
+/*Start hero text style*/
+.HeroSection{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(45deg, #bc3fa9, #5EC7FD);
+    position: relative;
+}
+
+.HeroText{
+    /*border: 2px solid red*/
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.HeroText h1{
+    margin: 0 0 15px;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Eczar', serif;
+    /*border: 2px solid red;*/
+}
+
+.HeroText h3{
+    margin: -7px 0 27px;
+    font-size: 32px;
+    /*border: 2px solid red;*/
+}
+
+.HeroButton{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+.HeroButton:hover{
+    background-color: #22B4FF;
+    border-color: #22B4FF;
+}
+/*End hero text style*/
+
+
+/*Start About Section Style*/
+.AboutSection{
+    margin: 0;
+    padding: 100px 0;
+    width: 100%;
+    /*border: 2px solid red;*/
+}
+
+.container{
+    /*border: 2px solid red;*/
+    width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.AboutTitle{
+    /*border: 2px solid red;*/
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.AboutTitle h2{
+    font-size: 30px;
+    color: #444444;
+    font-family: Eczar, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.AboutTitle p{
+    font-size: 18px;
+    color: #444444;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.AboutContent{
+    /*border: 2px solid red;*/
+    overflow: hidden;
+}
+
+.AboutImage{
+    /*border: 2px solid red;*/
+    float: left;
+    width: 40%;
+}
+
+
+.ShortDetails{
+    /*border: 2px solid red;*/
+    float: right;
+    width: 55%;
+}
+
+.ShortDetails a{
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 8px;
+}
+
+#details{
+    border-bottom: 2px solid #22B4FF;
+    color:#22B4FF;
+}
+
+.ShortDetails a:hover{
+    border-bottom: 2px solid #22B4FF;
+    color:#22B4FF;
+}
+
+.ShortDetails p{
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #484848;
+    margin-bottom: 5px;
+}
+
+.ShortDetails .NameStyle{
+    font-size: 55px;
+    font-family: 'Dawning of a New Day', cursive;
+    margin-top: 28px;
+}
+/*End About Section Style*/
+
+/*Start Service Style*/
+.ServiceSection{
+    width: 100%;
+    background: #F6F6F6;
+    margin-top: 50px;
+    padding: 40px 0 60px;
+    box-sizing: border-box
+/*    border: 2px solid red;*/
+}
+
+.ServicePart{
+    width: 960px;
+    margin: 0 auto;
+    /*border: 2px solid red;*/
+    box-sizing: border-box;
+    
+}
+
+.ServiceTitle{
+    text-align: center;
+}
+
+.ServiceTitle h2{
+    font-size: 30px;
+    font-family: Eczar, sans-serif;
+    font-weight: bold;
+    color: #444444;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+.ServiceTitle p{
+    font-size: 18px;
+    color: #444444;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.services{
+    /*border: 2px solid red;*/
+    box-sizing: border-box;
+    margin-top: 35px;
+}
+
+.service{
+    background: white;
+/*    border: 2px solid green;*/
+    box-sizing: border-box;
+    width: 20%;
+    display: inline-block;
+    margin: 0 2%;
+    text-align: center;
+    padding: 3px;
+    transition: all .5s;
+    
+}
+
+.service:hover{
+    box-shadow: 1px 0px 11px 2px grey;
+    cursor: pointer;
+    
+}
+
+.service p{
+    text-align: center;
+    padding: 5px;
+}
+
+.service_icon{
+	color: #22b4ff;
+	margin-top: 16px;
+}
+
+.service h3{
+    font-family: Eczar, sans-serif;
+    font-weight: bold;
+    color: #444444;
+    letter-spacing: 1px;
+}
+/*End Service Style*/
+
+/*Start Recent Works Style*/
+.RecentWorksSection{
+    width: 100%;
+    background: #ffffff;
+    padding: 40px 0;
+    margin-top: 50px;
+/*    border: 2px solid red;*/
+}
+
+.RecentWorks{
+    width: 960px;
+    margin: 0 auto;
+/*    border: 2px solid red;*/
+    box-sizing: border-box;
+}
+
+.WorksTitile{
+    text-align: center;
+}
+
+.WorksTitile h2{
+    font-size: 30px;
+    font-family: Eczar, sans-serif;
+    font-weight: bold;
+    color: #444444;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.WorksTitile p{
+    font-size: 18px;
+    color: #444444;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.WorksDemo{
+/*    border: 2px solid green;*/
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.Demo{
+    width: 32%;
+    padding: 8px;
+    display: inline-block;
+/*    border: 2px solid red;*/
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 6px;
+}
+
+.overlay{
+    width: 85%;
+    height: 77%;
+    background: rgba(255,255,255,0.8);
+    position: absolute;
+    margin: 5%;
+    transition: all .3s;
+    opacity: 0;
+}
+
+.Demo img{
+    width: 100%;
+    height: 193px;
+    width: 290px;
+}
+
+.Demo:hover .overlay{
+    opacity: 1;
+}
+
+.overlay .fa-search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #22b4ff;
+    cursor: pointer;
+}
+/*End Recent Works Style*/
+
+
+/*Start Feedback Section Style*/
+.ClientSection {
+    width: 100%;
+    background: #ffffff;
+    padding: 40px 0;
+    margin-top: 50px;
+    /*border: 2px solid red;*/
+    box-sizing: border-box;
+}
+
+.ClientContainer {    
+    width: 960px;
+    margin: 0 auto;
+    /*border: 2px solid red;*/
+    box-sizing: border-box;
+}
+
+.ClientTitle {
+    text-align: center;
+    
+}
+
+.ClientTitle h2{
+    font-size: 30px;
+    font-family: Eczar, sans-serif;
+    font-weight: bold;
+    color: #444444;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.ClientTitle p{
+    font-size: 18px;
+    color: #444444;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ClientFeedback {
+    /*border: 2px solid blue;*/
+    box-sizing: border-box;
+    margin-top: 30px;    
+}
+
+.feedback{
+    /*border: 2px solid green;*/
+    box-sizing: border-box;
+    width: 45%;
+    display: inline-block;
+    margin: 0 2%;
+    text-align: center;
+    padding: 3px;
+    margin-left: 24px;
+}
+
+.feedback h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #444444;
+    font-family: Eczar, sans-serif;
+    margin-bottom: 10px;
+}
+
+.feedback b{
+    font-size: 17px;
+    color: #444444;
+}
+
+.feedback p{
+    font-size: 17px;
+    color: #444444;
+}
+
+.ImageCircle {
+    height: 70px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.BlackCircle{
+    /*border: 2px solid green;*/
+    box-sizing: border-box;
+    text-align: center;
+    left: 50%;
+    
+}
+
+.BlackCircle p{
+    display: inline-block;
+    font-size: 23px;
+    color: #22b4ff;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#left{
+    opacity: 1;
+}
+
+.BlackCircle p:hover{
+    opacity: 1;
+}
+/*End Feedback Section Style*/
+
+
+/*Start Contact Section Style*/
+.ContactSection{
+    width: 100%;
+    background: #ffffff;
+    padding: 40px 0;
+    margin-top: 10px;
+    /*border: 2px solid red;*/
+    box-sizing: border-box;
+}
+
+.ContactContainer {
+    width: 960px;
+    margin: 0 auto;
+    /*border: 2px solid green;*/
+    box-sizing: border-box;
+}
+
+.ContactTitle {
+    text-align: center;
+}
+
+.ContactTitle h2{
+    font-size: 30px;
+    font-family: Eczar, sans-serif;
+    font-weight: bold;
+    color: #444444;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.ContactTitle p{
+    font-size: 18px;
+    color: #444444;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ContactForm {
+/*border: 2px solid blue;*/
+    box-sizing: border-box;
+}
+
+.ContactForm input{
+    width: 43%;
+    height: 1vh;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.message {
+    /*border: 2px solid red;*/
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 96%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.submit{
+    text-align: center;
+}
+
+.SubmitButton{
+    background: white;
+    border:  1px solid #212121;
+    color: #212121;
+    font-size: 18px;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin-top: 30px;
+    transition: all .3s;
+}
+
+.SubmitButton:hover{
+    outline: none;
+    background: #22B4FF;
+    border-color: #22B4FF;
+    color: #fff;
+}
+/*End Contact Section Style*/
+
+/*Start Footer Section Style*/
+.FooterSection{
+    padding: 20px 0;
+    /*border: 2px solid red;*/
+    box-sizing: border-box;
+}
+
+.FooterTitle{
+    text-align: center;
+}
+
+.FooterTitle h2{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #22b4ff;
+    font-family: Eczar, sans-serif;
+    margin-bottom: 10px;
+}
+
+.FooterIcons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #212121;
+    color: #212121;
+    transition: all .2s;
+}
+
+.FooterIcons .margin{
+    margin-left: 10px;
+}
+
+.FooterIcons a:hover{
+    color: #ffffff;
+    background: #22B4FF;
+    border: 1px solid #22B4FF; 
+}
+        
+.FooterSection p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #444444;
+}
+/*End Footer Section Style*/
